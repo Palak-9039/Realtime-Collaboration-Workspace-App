@@ -24,4 +24,9 @@ dependencyResolutionManagement {
 
 rootProject.name = "Realtime-Collaboration-Tool"
 include(":app")
- 
+
+include(":core:model")
+include(":features:board")
+include(":features:auth")
+include(":features:chat")
+include(":core:designsystem")
