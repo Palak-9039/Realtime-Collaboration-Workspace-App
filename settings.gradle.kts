@@ -26,6 +26,7 @@ rootProject.name = "Realtime-Collaboration-Tool"
 include(":app")
 
 include(":core:model")
+include(":core:network")
 include(":features:board")
 include(":features:auth")
 include(":features:chat")
