@@ -1,8 +1,12 @@
 package com.example.model
 
+import java.security.Timestamp
+
 data class Board(
-    val id: String = "",
+    val boardId: String = "",
     val title: String = "",
-    val columns: List<BoardColumn> = emptyList(),
-    val members: List<String> = emptyList()
+    val description: String = "",
+    val creatorId: String = "",
+    val collaborators: List<String> = emptyList(), // List of User UIDs
+    val createdAt: Long = System.currentTimeMillis()
 )
