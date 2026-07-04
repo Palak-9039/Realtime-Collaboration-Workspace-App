@@ -32,10 +32,12 @@ dependencies {
     // firebase dependency
     implementation(platform("com.google.firebase:firebase-bom:34.15.0"))
     implementation("com.google.firebase:firebase-firestore")
+    implementation("com.google.firebase:firebase-auth")
 
 
     // Dependency Injection with Hilt
     implementation("com.google.dagger:hilt-android:2.57.1")
+    implementation(libs.firebase.auth.ktx)
     ksp("com.google.dagger:hilt-android-compiler:2.57.1")
 
     // Coroutines for Flow support

@@ -37,7 +37,7 @@ class FirebaseBoardRepository @Inject constructor(
 
     suspend fun updateBoardState(board: Board){
         try{
-            firestore.collection("boards").document(board.id).set(board).await()
+            firestore.collection("boards").document(board.boardId).set(board).await()
         }catch (e : Exception){
             e.printStackTrace()
             throw e
