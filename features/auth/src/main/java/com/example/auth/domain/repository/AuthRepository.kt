@@ -1,4 +1,4 @@
-package com.example.network
+package com.example.auth.domain.repository
 
 import com.example.model.Resource
 import com.example.model.User

@@ -1,9 +1,8 @@
-package com.example.network.repository
+package com.example.auth.data.repository
 
 import com.example.model.Resource
 import com.example.model.User
-import com.example.network.AuthRepository
-import com.google.firebase.Firebase
+import com.example.auth.domain.repository.AuthRepository
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.coroutines.channels.awaitClose
